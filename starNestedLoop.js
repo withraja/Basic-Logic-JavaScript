@@ -1,16 +1,22 @@
 function starNestedLoop(n, m) {
-
+    for (let i = 0; i < m; i++) { 
+        for (let j = 0; j < n; j++)
+        console.log("*")
+        console.log("\n")
+    }
 }
 
-//TEST CASE
-starNestedLoop(1,2)
-// *
-// *
+console.log(starNestedLoop(1,2))
 
-starNestedLoop(2,3)
-// **
-// **
-// **
+// //TEST CASE
+// starNestedLoop(1,2)
+// // *
+// // *
 
-starNestedLoop(4,1)
-// ****
+// starNestedLoop(2,3)
+// // **
+// // **
+// // **
+
+// starNestedLoop(4,1)
+// // ****
